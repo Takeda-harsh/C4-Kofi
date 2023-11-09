@@ -1,8 +1,8 @@
-import { useState } from 'react'
+import { Component, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import React, {Component} from 'react';
+
 
 // function App() {
 //   const [count, setCount] = useState(0)
@@ -33,15 +33,26 @@ import React, {Component} from 'react';
 //   )
 // }
 
-class App extends Component {
+class Portfolio extends Component {
   render() {
     return(
       <div>
-        <h1>Hello World</h1>
-        <p>I am Kofi Awuette Akyea, this is my first React application.</p>
+        <h1>Name: Kofi Awuette Akyea</h1>
+        <p>Educational Background: MBA Economics</p>
+        <p>Professional Background: Web Developer & IT Expert</p>
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>WordPress</li>
+          <li>WebFlow</li>
+          <li>Adobe Illustrator</li>
+          <li>Adobe Premier Pro</li>
+        </ul>
       </div>
     );
   }
 }
 
-export default App
+export default Portfolio
