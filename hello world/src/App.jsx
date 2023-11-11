@@ -1,7 +1,8 @@
-import { Component, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Component } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
+import Button from './assets/components/Button';
 
 
 // function App() {
@@ -50,6 +51,9 @@ class Portfolio extends Component {
           <li>Adobe Illustrator</li>
           <li>Adobe Premier Pro</li>
         </ul>
+
+        <Button label= 'Login' />
+        <Button label= 'Sign In' />
       </div>
     );
   }
