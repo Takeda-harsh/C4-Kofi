@@ -51,9 +51,11 @@ class Portfolio extends Component {
           <li>Adobe Illustrator</li>
           <li>Adobe Premier Pro</li>
         </ul>
-
+      <div style={{ textAlign: "center", marginTop: "30px", display: "flex", justifyContent: "center" }}>
         <Button label= 'Login' />
         <Button label= 'Sign In' />
+      </div>
+        
       </div>
     );
   }
